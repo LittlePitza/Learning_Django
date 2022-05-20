@@ -13,7 +13,6 @@ class Type(models.Model):
 
 class Category(models.Model):
     name = models.CharField(max_length=255)
-    # Test
 
     def __str__(self):
         return self.name
